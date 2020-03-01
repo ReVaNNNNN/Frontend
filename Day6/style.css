@@ -1,0 +1,8 @@
+.name {
+    font-weight: 30px;
+    background-color: red;
+}
+
+*  > div > p {
+    background-color: grey !important;
+}
