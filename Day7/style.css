@@ -1,16 +1,22 @@
-* {
-    margin: 0;
-}
-
-h1 {
+a {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 260px;
+    padding: 20px 0;
     text-align: center;
-    margin: 10% 0;
+    border: 3px solid orange;
+    margin: 20px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: orangered;
+    text-transform: uppercase;
+    background-color: #000;
+    text-decoration: none;
+    transform: 1s;
 }
 
-div {
-    max-width: 1400px;
-    height: 500px;
-    background-color: green;
-    margin-left: auto;
-    margin-right: auto;
+a:hover {
+    background-color: #333;
+    color: #AAA;
+    border-color: #AAA;
 }
