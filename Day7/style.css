@@ -12,7 +12,7 @@ a {
     text-transform: uppercase;
     background-color: #000;
     text-decoration: none;
-    transform: 1s;
+    transition: 0.3s;
 }
 
 a:hover {
