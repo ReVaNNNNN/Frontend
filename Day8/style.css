@@ -6,10 +6,31 @@
 .wrapper {
     max-width: 1440px;
     margin: 0 auto;
+
 }
 
 nav {
-    background-color: peachpuff;
+    background-color: #CCC;
+    text-align: right;
+    padding-right: 50px;
+}
+
+nav a {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 25px;
+    margin: 10px 15px;
+    color: firebrick;
+    font-size: 20px;
+    border: 2px solid firebrick;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #FFF;
+    background-color: firebrick;
 }
 
 header {
@@ -26,3 +47,4 @@ footer {
     background-color: cyan;
     min-height: 200px;
 }
+
