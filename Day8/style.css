@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: peachpuff;
+}
+
+header {
+    background-color: rosybrown;
+    min-height: 200px;
+}
+
+main {
+    background-color: green;
+    min-height: 50vh;
+}
+
+footer {
+    background-color: cyan;
+    min-height: 200px;
+}
