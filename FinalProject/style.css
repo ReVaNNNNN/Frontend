@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Comic Neue', cursive;
+}
+
+header {
+    background-color: #fb7b6b;
+    height: 100vh;
+    position: relative;
+    color: #FFF;
+}
+
+header .welcome {
+    position: absolute;
+    top: 3%;
+    width: 100%;
+    text-align: center;
+}
+
+header .welcome p {
+    font-size: 5rem;
+    font-weight: 700;
+
+}
+
+header .welcome h1, h2 {
+    font-size: 2rem;
+}
+
+header .welcome button {
+    padding: 10px 30px;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    color: #FFF;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    text-transform: uppercase;
+}
+
+header .welcome button:hover {
+    color: #fb7b6b;
+    background-color: #FFF;
+}
+
+header img {
+    position: absolute;
+    width: 90%;
+    bottom: 0;
+    right: 0;
+}
+
+section.technology {
+    background-color: #FFF;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #d7385e;
+}
+
+section.technology h2:first-child {
+    margin-top: 5%;
+    font-size: 3rem;
+}
+
+section.technology h2 {
+    margin-top: 3%;
+    padding: 0 5%;
+    font-size: 2rem;
+}
+
+section.technology img {
+    width: 90%;
+}
+
+section.technology p {
+    margin-top: 3%;
+    font-size: 1.5rem;
+    padding: 0 5%;
+}
+
+section.motto {
+    margin-top: 5%;
+    background-image: url('images/motto.jpg');
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+section.motto {
+    color: #FFF;
+    padding-top: 20%;
+}
+
+section.motto h2 {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+}
+
+section.motto p:first-of-type {
+    margin: 25% 0;
+    padding: 5%;
+    font-size: 1.5rem;
+    color: #d7385e;
+    font-style: italic;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+section.motto p:last-child {
+    color: #d7385e;
+    font-size: 1.5rem;
+}
+
+section.hobby {
+    background-color: #FFF;
+    padding-top: 20%;
+    text-align: center;
+}
+
+section.hobby h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-bottom: 10%;
+}
+
+section.hobby img {
+    width: 100%;
+}
+
+section.contact {
+    background-color: #000;
+    color: #FFF;
+    padding-top: 10%;
+    text-align: center;
+}
+
+section.contact h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 5%;
+}
+
+section.contact input {
+   
+}
+
+section.contact textarea {
+    
+}
+
+section.contact button {
+    
+}
+
+section.contact .socials {
+    
+}
+
+footer {
+
+}
+
+footer p {
+    
+}
