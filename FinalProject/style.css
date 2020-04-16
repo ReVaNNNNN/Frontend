@@ -146,27 +146,62 @@ section.contact h2 {
     font-size: 2rem;
     padding: 5%;
 }
-
+/* https://colorhunt.co/palette/179481 */
 section.contact input {
-   
+    padding: 2%;
+    margin: 5% auto 0;
+    width: 80%;
 }
 
 section.contact textarea {
-    
+    padding: 2%;
+    margin: 5% auto 0;
+    width: 80%;
 }
 
 section.contact button {
-    
+    margin: 5% auto;
+    width: 80%;
+    background-color: #000;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 5% 10%;
+    border: 2px solid #FFF;
+}
+
+section.contact button:hover {
+    background-color: #FFF;
+    color: #000;
+    border: 2px solid #000;
 }
 
 section.contact .socials {
-    
+    margin-top: 10%;
+}   
+
+section.contact .socials span {
+    position: relative;
+    display: block;
+    height: 50px;
+}
+
+section.contact .socials img {
+    position: absolute;
+    width: 10%;
+    left: 10%;
+    bottom: 50%;
+}
+
+section.contact .socials p {
+    font-size: 1.2rem;
 }
 
 footer {
-
+    background-color: #fb7b6b;
+    text-align: center;
 }
 
 footer p {
-    
+    padding: 8%;
+    font-size: 1.2rem;
 }
