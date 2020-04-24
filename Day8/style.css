@@ -23,12 +23,9 @@ nav a:hover {
    color: orange
 }
 
-
 header {
     height: 40vh;
     background-image: url('molo.jpg');
     background-size: cover;
     background-position: center;
 }
-
-
