@@ -1,2 +1,2 @@
 # Frontend
-Samuraj Programowania - Web Developer from 0 to solid foundations.
+Samuraj Programowania - Web Developer start from scratch to solid foundations.
